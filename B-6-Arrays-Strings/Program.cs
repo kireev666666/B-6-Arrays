@@ -36,7 +36,7 @@ namespace Base.Lesson_6
             e = Convert.ToInt32(Console.ReadLine());
             int[] mass = new int[5] { a, b, c, d, e };
             Array.Sort(mass);
-            for (int i = 0; i < mass.Length; i++)              
+            for (int i = 0; i < mass.Length; i++)
                 Console.Write(" " + mass[i]);
             Console.ReadKey();
         }
